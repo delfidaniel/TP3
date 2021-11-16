@@ -4,9 +4,9 @@ body { background-color: #ff8000; color: white; font-family: 'Open Sans', sans-s
 
 h1  { font-family: 'Archivo Black', sans-serif; font-size: 300px; color: yellow; justify-content: center; }
 
-.raqueta img { width: 100%;  }
+.fotoraqueta img { width: 100%;  }
 
-.raqueta  { width: 35%; display: inline-flex; justify-content: center; } 
+.raqueta  {  display: inline-flex; justify-content: center; } 
 
 .h2 {  font-size: 30px;  display: inline-flex; margin-top: -1%;  color: yellow; } 
 
@@ -41,6 +41,22 @@ h1  { font-family: 'Archivo Black', sans-serif; font-size: 300px; color: yellow;
         background-position: 0;
 }
 
+}
+
+
+.fotoraqueta {
+    width: 35%;
+    animation-name: foto;
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes foto {
+    
+    0%{
+        transform: rotate(360deg);
+    }
+}
 
 
 
