@@ -6,7 +6,9 @@ h1  { font-family: 'Archivo Black', sans-serif; font-size: 300px; color: yellow;
 
 .fotoraqueta img { width: 100%;  }
 
-.raqueta  {  display: inline-flex; justify-content: center; } 
+.fotoraqueta { width: 35%; }
+
+.raqueta  { display: inline-flex; justify-content: center; } 
 
 .h2 {  font-size: 30px;  display: inline-flex; margin-top: -1%;  color: yellow; } 
 
