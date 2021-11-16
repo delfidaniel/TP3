@@ -47,6 +47,27 @@ h1  { font-family: 'Archivo Black', sans-serif; font-size: 300px; color: yellow;
 
 
 
+.fotoraqueta {
+    animation-name: raqueta;
+    animation-duration: 2s;
+    animation-delay:1s ;
+    animation-fill-mode: backwards ;
+}
+
+
+
+@keyframes raqueta{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
 
 
 
